@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Crop Smart</title>
+    <link rel="stylesheet" href="style.css">
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+    }
+    
+    header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    header nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    
+    header nav a:hover {
+        text-decoration: underline;
+    }
+    
+    .contact-info {
+        text-align: center;
+        margin: 2rem;
+    }
+    
+    .contact-form {
+        width: 80%;
+        max-width: 500px;
+        margin: auto;
+        padding: 2rem;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    
+    input[type="text"], input[type="email"], input[type="tel"], textarea {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    .submit-button {
+        width: 100%;
+        padding: 1rem;
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .submit-button:hover {
+        background-color: #45a049;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #333;
+        color: white;
+        margin-top: 2rem;
+    }
+    
+    footer a {
+        color: #4CAF50;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Crop Smart</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="crop.html">Crop</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>We’d love to hear from you! Whether you have a question about our services or need support, feel free to reach out.</p>
+        </section>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here"></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Crop Smart. All rights reserved.</p>
+        <p>Follow us on: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>

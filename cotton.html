@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Cotton</title>
+    <style>
+        body {
+            background-image: url(cotton3.webp);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: ;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: yellow;
+            opacity: 100%;
+            font-size: 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        
+        
+        }
+        .container {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1, h2, h3 {
+            color: black;
+            font-size: 24px;
+        }
+        img {
+            width: 750px;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        #breadcrumb {
+            font-size: 0.9em;
+            color: black;
+            margin-bottom: 15px;
+        }
+        #breadcrumb a {
+            color: black;
+            text-decoration: none;
+        }
+        .box {
+      background-color: #69ff19;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .box:hover {
+      transform: translateY(-5px);
+    }
+
+    .box h3 {
+      margin-top: 0;
+      color: #0022ff;
+    }
+
+    .box p {
+      color: #ff4343;
+    }
+    .box-list {
+      display: flex;
+      margin-top: -200vh;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+   
+    </style>
+</head>
+<body>
+
+<div class="container">
+   <div>
+    <div id="breadcrumb"></div>
+
+    <h1>Cotton: The Essential Fiber Crop</h1>
+    <img src="cotton1.jpg" alt="Cotton field" />
+
+    
+    <div class="section" id="uses">
+        <h2>Uses of Cotton</h2>
+        <p>Cotton is a crucial crop with various uses:</p>
+        <ul>
+            <li><strong>Textile Production:</strong> Cotton fibers are spun into yarn and used to make fabrics for clothing, linens, and more.</li>
+            <li><strong>Industrial Uses:</strong> Cottonseed oil is used in food products, while the cotton plant itself can be used for feed and fuel.</li>
+            <li><strong>Medical Applications:</strong> Cotton is used in medical supplies like bandages, gauze, and cotton swabs.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="types">
+        <h2>Types of Cotton</h2>
+        <p>Different types of cotton are cultivated based on fiber quality and use:</p>
+        <ul>
+            <li><strong>Upland Cotton:</strong> The most commonly grown type, used in everyday textiles.</li>
+            <li><strong>Pima Cotton:</strong> Known for its softness and strength, often used in luxury fabrics.</li>
+            <li><strong>Egyptian Cotton:</strong> Highly prized for its long fibers, resulting in soft and durable fabrics.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="growth-requirements">
+        <h2>Growth Requirements for Cotton</h2>
+        <p>Cotton requires specific conditions to grow optimally:</p>
+        <ul>
+            <li><strong>Climate:</strong> Thrives in warm climates with plenty of sunshine.</li>
+            <li><strong>Soil:</strong> Grows best in well-drained, fertile soils with a neutral pH.</li>
+            <li><strong>Water:</strong> Requires consistent irrigation, especially in arid regions.</li>
+        </ul>
+    </div>
+
+    
+    <div class="section" id="fertilizers">
+        <h2>Natural Fertilizers for Cotton</h2>
+        <p>Natural fertilizers improve soil health for cotton cultivation:</p>
+        <ul>
+            <li><strong>Compost:</strong> Adds essential nutrients to the soil, enhancing soil fertility.</li>
+            <li><strong>Manure:</strong> Increases organic matter and improves soil structure.</li>
+            <li><strong>Green Manure:</strong> Helps add nitrogen and other nutrients to the soil.</li>
+        </ul>
+    </div>
+
+    
+    <div class="section" id="pest-prevention">
+        <h2>Pest and Disease Prevention</h2>
+        <p>Common practices to protect cotton crops from pests and diseases:</p>
+        <ul>
+            <li><strong>Crop Rotation:</strong> Helps reduce soil-borne pests and diseases.</li>
+            <li><strong>Use of Resistant Varieties:</strong> Planting pest-resistant cotton varieties minimizes crop damage.</li>
+            <li><strong>Integrated Pest Management (IPM):</strong> Combines biological, cultural, and mechanical practices to control pests.</li>
+        </ul>
+    </div>
+
+    
+    <div class="section" id="benefits">
+        <h2>Benefits of Cotton</h2>
+        <ul>
+            <li><strong>Biodegradable:</strong> Cotton is a natural fiber that decomposes over time, reducing environmental impact.</li>
+            <li><strong>Soft and Comfortable:</strong> Widely valued for its comfort in textiles.</li>
+            <li><strong>Renewable Resource:</strong> Cotton is a renewable crop, harvested each growing season.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <h3>1. How much water does cotton need?</h3>
+        <p>Cotton requires a significant amount of water, especially in arid regions, where irrigation is essential.</p>
+
+        <h3>2. What are the main pests that affect cotton?</h3>
+        <p>Cotton is susceptible to pests such as the bollworm, aphids, and whiteflies, which can reduce crop yields if not managed properly.</p>
+    </div>
+
+    <a href="crop.html">Back to Crop List</a>
+</div>   <div class="box-list">
+        <div class="box">
+          <h3><a href="soyabean.html">Soyabean </a> </h3>
+         
+        </div>
+        <div class="box">
+          <h3><a href="wheat.html">Wheat</a> </h3>
+        </div>
+      </div></div>
+
+<script>
+
+const breadcrumbContainer = document.getElementById("breadcrumb");
+
+const pathSegments = [
+    { name: "Home", url: "home.html" },
+    { name: "Crops", url: "crop.html" },
+    { name: "Cotton", url: "cotton.html" }
+];
+
+
+let breadcrumbHTML = "";
+pathSegments.forEach((segment, index) => {
+    if (index === pathSegments.length - 1) {
+        breadcrumbHTML += `<span>${segment.name}</span>`;
+    } else {
+        breadcrumbHTML += `<a href="${segment.url}">${segment.name}</a> >> `;
+    }
+});
+
+
+breadcrumbContainer.innerHTML = breadcrumbHTML;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Maize</title>
+    <style>
+        body {
+            background-image: url(maize3.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: ;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: gold;
+            font-size: 20px;
+        
+        
+        }
+        .container {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1, h2, h3 {
+            color: black;
+            font-size: 24px;
+        }
+        img {
+            width: 750px;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        #breadcrumb {
+            font-size: 0.9em;
+            color: black;
+            margin-bottom: 15px;
+        }
+        #breadcrumb a {
+            color: black;
+            text-decoration: none;
+        }
+        .box {
+      background-color: #69ff19;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .box:hover {
+      transform: translateY(-5px);
+    }
+
+    .box h3 {
+      margin-top: 0;
+      color: #0022ff;
+    }
+
+    .box p {
+      color: #ff4343;
+    }
+    .box-list {
+      display: flex;
+      margin-top: -200vh;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+    
+    </style>
+</head>
+<body>
+
+<div class="container">
+  <div>
+    <div id="breadcrumb"></div>
+
+    <h1>Maize: The Versatile Crop</h1>
+    <img src="maize1.webp" alt="Maize field" />
+
+   
+    <div class="section" id="uses">
+        <h2>Uses of Maize</h2>
+        <p>Maize is a versatile crop with a wide range of uses:</p>
+        <ul>
+            <li><strong>Food:</strong> Maize is used for cornmeal, tortillas, and as a staple food in many cultures.</li>
+            <li><strong>Animal Feed:</strong> It is commonly used as livestock feed due to its high energy content.</li>
+            <li><strong>Industrial Applications:</strong> Maize is used in producing biofuels, corn syrup, and biodegradable plastics.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="types">
+        <h2>Types of Maize</h2>
+        <p>Different types of maize are cultivated for specific purposes:</p>
+        <ul>
+            <li><strong>Dent Corn:</strong> Used primarily in animal feed and industrial products.</li>
+            <li><strong>Flint Corn:</strong> Known for its hard kernels, often used in food products and as decorative corn.</li>
+            <li><strong>Sweet Corn:</strong> Commonly eaten as a vegetable due to its high sugar content.</li>
+        </ul>
+    </div>
+
+    
+    <div class="section" id="growth-requirements">
+        <h2>Growth Requirements for Maize</h2>
+        <p>Maize requires specific conditions to grow optimally:</p>
+        <ul>
+            <li><strong>Climate:</strong> Prefers warm temperatures and a frost-free period.</li>
+            <li><strong>Soil:</strong> Grows best in well-drained, fertile soils with a neutral to slightly acidic pH.</li>
+            <li><strong>Water:</strong> Requires consistent watering, especially during the growing season.</li>
+        </ul>
+    </div>
+
+    
+    <div class="section" id="fertilizers">
+        <h2>Natural Fertilizers for Maize</h2>
+        <p>Natural fertilizers support healthy maize growth:</p>
+        <ul>
+            <li><strong>Compost:</strong> Adds essential nutrients to the soil, enhancing fertility and moisture retention.</li>
+            <li><strong>Manure:</strong> Enriches the soil with nitrogen and other nutrients needed for maize growth.</li>
+            <li><strong>Cover Crops:</strong> Adds organic matter to the soil and improves soil structure.</li>
+        </ul>
+    </div>
+
+  
+    <div class="section" id="pest-prevention">
+        <h2>Pest and Disease Prevention</h2>
+        <p>Strategies to protect maize crops from pests and diseases:</p>
+        <ul>
+            <li><strong>Crop Rotation:</strong> Helps prevent the buildup of soil-borne pests and diseases.</li>
+            <li><strong>Use of Resistant Varieties:</strong> Planting pest-resistant maize varieties reduces crop damage.</li>
+            <li><strong>Integrated Pest Management (IPM):</strong> Combines biological, cultural, and chemical controls for pest management.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="benefits">
+        <h2>Benefits of Maize</h2>
+        <ul>
+            <li><strong>High Yield:</strong> Maize is known for its high productivity and is a reliable crop for many farmers.</li>
+            <li><strong>Nutritional Value:</strong> Maize is a good source of carbohydrates, fiber, and essential vitamins.</li>
+            <li><strong>Renewable Resource:</strong> Maize can be replanted each season, contributing to sustainable agriculture.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <h3>1. How long does it take to grow maize?</h3>
+        <p>Maize usually takes around 60 to 100 days to mature, depending on the variety and climate.</p>
+
+        <h3>2. What are common pests that affect maize crops?</h3>
+        <p>Common pests include corn borers, aphids, and cutworms, which can be managed with integrated pest management practices.</p>
+    </div>
+
+    <a href="crop.html">Back to Crop List</a>
+</div>   <div class="box-list">
+    <div class="box">
+      <h3><a href="soyabean.html">Soyabean</a> </h3>
+      
+    </div>
+    <div class="box">
+      <h3><a href="cotton.html">Cotton</a></h3>
+    </div>
+  </div></div>
+
+<script>
+
+const breadcrumbContainer = document.getElementById("breadcrumb");
+
+const pathSegments = [
+    { name: "Home", url: "home.html" },
+    { name: "Crops", url: "crop.html" },
+    { name: "Maize", url: "maize.html" }
+];
+
+
+let breadcrumbHTML = "";
+pathSegments.forEach((segment, index) => {
+    if (index === pathSegments.length - 1) {
+        breadcrumbHTML += `<span>${segment.name}</span>`;
+    } else {
+        breadcrumbHTML += `<a href="${segment.url}">${segment.name}</a> >> `;
+    }
+});
+
+
+breadcrumbContainer.innerHTML = breadcrumbHTML;
+</script>
+
+</body>
+</html>

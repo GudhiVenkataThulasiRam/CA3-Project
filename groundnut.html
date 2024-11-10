@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Groundnut</title>
+    <style>
+        body {
+            background-image: url(groundnut3.jpg.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: ;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-size: 20px;
+        
+        
+        }
+        .container {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1, h2, h3 {
+            color: black;
+            font-size: 24px;
+        }
+        img {
+            width: 750px;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        #breadcrumb {
+            font-size: 0.9em;
+            color: black;
+            margin-bottom: 15px;
+        }
+        #breadcrumb a {
+            color: black;
+            text-decoration: none;
+        }
+        .box {
+      background-color: #69ff19;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .box:hover {
+      transform: translateY(-5px);
+    }
+
+    .box h3 {
+      margin-top: 0;
+      color: #0022ff;
+    }
+
+    .box p {
+      color: #ff4343;
+    }
+    .box-list {
+      display: flex;
+      margin-top: -200vh;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+    
+    </style>
+</head>
+<body>
+
+<div class="container">
+<div>
+    <div id="breadcrumb"></div>
+
+    <h1>Groundnut: The Nutty Crop</h1>
+    <img src="groundnut1.jpg" alt="Groundnut field" />
+
+    
+    <div class="section" id="uses">
+        <h2>Uses of Groundnut</h2>
+        <p>Groundnut is widely used for various purposes:</p>
+        <ul>
+            <li><strong>Edible Oil:</strong> Groundnut oil is commonly used for cooking due to its mild flavor and high smoking point.</li>
+            <li><strong>Food Products:</strong> Groundnuts are consumed as snacks (roasted or boiled), and used in products like peanut butter.</li>
+            <li><strong>Animal Feed:</strong> The remaining cake after oil extraction is used as animal feed due to its high protein content.</li>
+        </ul>
+    </div>
+
+ 
+    <div class="section" id="types">
+        <h2>Types of Groundnut</h2>
+        <p>Different varieties of groundnuts are grown based on climate and usage:</p>
+        <ul>
+            <li><strong>Spanish:</strong> Known for its high oil content and often used in peanut butter.</li>
+            <li><strong>Virginia:</strong> Has larger kernels, popular as roasted peanuts.</li>
+            <li><strong>Runner:</strong> Used extensively in peanut butter due to its uniform kernel size.</li>
+        </ul>
+    </div>
+
+    
+    <div class="section" id="growth-requirements">
+        <h2>Growth Requirements for Groundnut</h2>
+        <p>Groundnuts require specific conditions to grow effectively:</p>
+        <ul>
+            <li><strong>Climate:</strong> Grows well in warm, tropical climates with moderate rainfall.</li>
+            <li><strong>Soil:</strong> Prefers sandy loam soil with good drainage to prevent waterlogging.</li>
+            <li><strong>Water:</strong> Requires moderate irrigation, especially during flowering and pod formation stages.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="fertilizers">
+        <h2>Natural Fertilizers for Groundnut</h2>
+        <p>Natural fertilizers can help groundnut crops thrive:</p>
+        <ul>
+            <li><strong>Compost:</strong> Enriches the soil with nutrients, enhancing soil structure.</li>
+            <li><strong>Manure:</strong> Adds organic matter and improves soil fertility.</li>
+            <li><strong>Green Manure:</strong> Helps add nitrogen to the soil, which is beneficial for groundnut plants.</li>
+        </ul>
+    </div>
+
+
+    <div class="section" id="pest-prevention">
+        <h2>Pest and Disease Prevention</h2>
+        <p>Practices to protect groundnut crops from pests and diseases:</p>
+        <ul>
+            <li><strong>Crop Rotation:</strong> Reduces soil-borne diseases and pests.</li>
+            <li><strong>Use of Resistant Varieties:</strong> Planting pest-resistant varieties minimizes damage.</li>
+            <li><strong>Proper Irrigation:</strong> Prevents fungal diseases associated with excess moisture.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="benefits">
+        <h2>Health Benefits of Groundnut</h2>
+        <ul>
+            <li><strong>Rich in Protein:</strong> Groundnuts are a good source of plant-based protein.</li>
+            <li><strong>High in Healthy Fats:</strong> Contains monounsaturated and polyunsaturated fats beneficial for heart health.</li>
+            <li><strong>Contains Nutrients:</strong> Rich in vitamins, minerals, and antioxidants that promote overall health.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <h3>1. How long does it take to grow groundnuts?</h3>
+        <p>Groundnuts usually take about 120 to 150 days to mature, depending on the variety and climate.</p>
+
+        <h3>2. What pests commonly affect groundnut crops?</h3>
+        <p>Common pests include aphids, leafhoppers, and caterpillars, which can be managed through integrated pest management practices.</p>
+    </div>
+
+    <a href="crop.html">Back to Crop List</a>
+</div>   <div class="box-list">
+    <div class="box">
+      <h3><a href="rice.html">Rice</a> </h3>
+      
+    </div>
+    <div class="box">
+      <h3><a href="soyabean.html">Soyabean</a></h3>
+    </div>
+  </div></div>
+
+<script>
+
+const breadcrumbContainer = document.getElementById("breadcrumb");
+
+const pathSegments = [
+    { name: "Home", url: "home.html" },
+    { name: "Crops", url: "crop.html" },
+    { name: "Groundnut", url: "groundnut.html" }
+];
+
+
+let breadcrumbHTML = "";
+pathSegments.forEach((segment, index) => {
+    if (index === pathSegments.length - 1) {
+        breadcrumbHTML += `<span>${segment.name}</span>`;
+    } else {
+        breadcrumbHTML += `<a href="${segment.url}">${segment.name}</a> >> `;
+    }
+});
+
+breadcrumbContainer.innerHTML = breadcrumbHTML;
+</script>
+
+</body>
+</html>

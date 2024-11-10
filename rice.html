@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Rice</title>
+    <style>
+        body {
+            background-image: url(rice3.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: ;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: black;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        
+        }
+        .container {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1, h2, h3 {
+            color: #3b5998;
+            font-size: 24px;
+        }
+        img {
+            width: 750px;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        #breadcrumb {
+            font-size: 0.9em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        #breadcrumb a {
+            color: #3b5998;
+            text-decoration: none;
+        }
+        .box {
+      background-color: #69ff19;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .box:hover {
+      transform: translateY(-5px);
+    }
+
+    .box h3 {
+      margin-top: 0;
+      color: #0022ff;
+    }
+
+    .box p {
+      color: #ff4343;
+    }
+    .box-list {
+      display: flex;
+      margin-top: -200vh;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+   
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div>
+    <div id="breadcrumb"></div>
+
+    <h1>Rice: The Global Staple</h1>
+    <img src="rice1.jpg" alt="Rice field" />
+
+
+    <div class="section" id="uses">
+        <h2>Uses of Rice</h2>
+        <p>Rice is a staple crop with diverse uses around the world:</p>
+        <ul>
+            <li><strong>Food:</strong> Rice is cooked and eaten as a staple dish in many cuisines, used to make flour, noodles, and various snacks.</li>
+            <li><strong>Animal Feed:</strong> Rice bran is used as feed for livestock and poultry.</li>
+            <li><strong>Industrial Uses:</strong> Used in cosmetics, biofuel production, and as raw material in making rice paper.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="types">
+        <h2>Types of Rice</h2>
+        <p>There are various types of rice grown for different culinary and industrial purposes:</p>
+        <ul>
+            <li><strong>White Rice:</strong> Milled and polished, commonly used in cooking.</li>
+            <li><strong>Brown Rice:</strong> A whole grain with the bran layer intact, rich in fiber.</li>
+            <li><strong>Basmati Rice:</strong> Aromatic and long-grain, popular in South Asian cuisine.</li>
+            <li><strong>Jasmine Rice:</strong> Aromatic and soft, popular in Southeast Asian cuisine.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="growth-requirements">
+        <h2>Growth Requirements for Rice</h2>
+        <p>Rice requires specific conditions to grow optimally:</p>
+        <ul>
+            <li><strong>Climate:</strong> Warm, humid conditions with plenty of rainfall are ideal.</li>
+            <li><strong>Soil:</strong> Prefers clayey or loamy soil that can retain water.</li>
+            <li><strong>Water:</strong> Requires consistent water supply; often grown in flooded fields.</li>
+        </ul>
+    </div>
+
+  
+    <div class="section" id="fertilizers">
+        <h2>Natural Fertilizers for Rice</h2>
+        <p>Natural fertilizers help enhance rice yields:</p>
+        <ul>
+            <li><strong>Green Manure:</strong> Adds nutrients to the soil when incorporated before planting.</li>
+            <li><strong>Compost:</strong> Improves soil fertility and water retention.</li>
+            <li><strong>Biofertilizers:</strong> Enhances nutrient availability through beneficial microbes.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="pest-prevention">
+        <h2>Pest and Disease Prevention</h2>
+        <p>Measures to protect rice from pests and diseases:</p>
+        <ul>
+            <li><strong>Flood Control:</strong> Proper water management helps reduce fungal issues.</li>
+            <li><strong>Resistant Varieties:</strong> Selecting disease-resistant varieties can prevent crop loss.</li>
+            <li><strong>Crop Rotation:</strong> Helps control soil-borne pests and diseases.</li>
+        </ul>
+    </div>
+
+
+    <div class="section" id="benefits">
+        <h2>Health Benefits of Rice</h2>
+        <ul>
+            <li><strong>Energy Source:</strong> High in carbohydrates, rice provides sustained energy.</li>
+            <li><strong>Rich in Vitamins:</strong> Contains B vitamins, essential for metabolic health.</li>
+            <li><strong>Gluten-Free:</strong> Naturally gluten-free, suitable for gluten-sensitive individuals.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <h3>1. How much water does rice need?</h3>
+        <p>Rice requires a large amount of water, often grown in flooded fields to ensure consistent hydration.</p>
+
+        <h3>2. Can rice be grown in non-flooded fields?</h3>
+        <p>Yes, there are upland rice varieties that are grown without flooded conditions, although they are less common.</p>
+    </div>
+
+    <a href="crop.html">Back to Crop List</a>
+</div>   <div class="box-list">
+    <div class="box">
+      <h3><a href="wheat.html">Wheat</a> </h3>
+      
+    </div>
+    <div class="box">
+      <h3><a href="soyabean.html">Soyabean</a></h3>
+    </div>
+  </div></div>
+<script>
+
+const breadcrumbContainer = document.getElementById("breadcrumb");
+
+const pathSegments = [
+    { name: "Home", url: "home.html" },
+    { name: "Crops", url: "crop.html" }, 
+    { name: "Rice", url: "rice.html" }
+];
+
+let breadcrumbHTML = "";
+pathSegments.forEach((segment, index) => {
+    if (index === pathSegments.length - 1) {
+        breadcrumbHTML += `<span>${segment.name}</span>`;
+    } else {
+        breadcrumbHTML += `<a href="${segment.url}">${segment.name}</a> >> `;
+    }
+});
+
+
+breadcrumbContainer.innerHTML = breadcrumbHTML;
+</script>
+
+</body>
+</html>

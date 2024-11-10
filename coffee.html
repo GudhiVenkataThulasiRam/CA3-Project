@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Coffee</title>
+    <style>
+         body {
+            background-image: url(coffee3.webp);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: ;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        
+        }
+        .container {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1, h2, h3 {
+            color: black;
+            font-size: 24px;
+        }
+        img {
+            width: 750px;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        #breadcrumb {
+            font-size: 0.9em;
+            color: rgb(0, 97, 100);
+            margin-bottom: 15px;
+        }
+        #breadcrumb a {
+            color:  rgb(0, 97, 100); ;
+            text-decoration: none;
+        }
+        .box {
+      background-color: #69ff19;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .box:hover {
+      transform: translateY(-5px);
+    }
+
+    .box h3 {
+      margin-top: 0;
+      color: #0022ff;
+    }
+
+    .box p {
+      color: #ff4343;
+    }
+    .box-list {
+      display: flex;
+      margin-top: -200vh;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+    
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div>
+    <div id="breadcrumb"></div>
+
+    <h1>Coffee: The Aromatic Crop</h1>
+    <img src="coffee1.jpg" alt="Coffee plantation" />
+
+    
+    <div class="section" id="uses">
+        <h2>Uses of Coffee</h2>
+        <p>Coffee is widely valued for its rich aroma and flavor, with various uses:</p>
+        <ul>
+            <li><strong>Beverages:</strong> Coffee beans are used to make popular beverages, such as espresso, cappuccino, and iced coffee.</li>
+            <li><strong>Skincare Products:</strong> Coffee is used in exfoliating scrubs and face masks due to its antioxidant properties.</li>
+            <li><strong>Composting:</strong> Coffee grounds are commonly used as organic matter to enrich compost.</li>
+        </ul>
+    </div>
+
+    
+    <div class="section" id="types">
+        <h2>Types of Coffee</h2>
+        <p>Various types of coffee beans are cultivated around the world, each with unique characteristics:</p>
+        <ul>
+            <li><strong>Arabica:</strong> Known for its smooth flavor and low acidity, popular in specialty coffee.</li>
+            <li><strong>Robusta:</strong> Stronger and more bitter, commonly used in espresso blends.</li>
+            <li><strong>Liberica:</strong> Known for its unique aroma and woody flavor, grown primarily in Southeast Asia.</li>
+        </ul>
+    </div>
+
+
+    <div class="section" id="growth-requirements">
+        <h2>Growth Requirements for Coffee</h2>
+        <p>Coffee plants require specific conditions to thrive:</p>
+        <ul>
+            <li><strong>Climate:</strong> Requires tropical climates with ample rainfall and consistent temperatures.</li>
+            <li><strong>Soil:</strong> Prefers rich, well-draining soil with a slightly acidic pH.</li>
+            <li><strong>Shade:</strong> Often grown under shade trees to protect from direct sunlight.</li>
+        </ul>
+    </div>
+
+   
+    <div class="section" id="fertilizers">
+        <h2>Natural Fertilizers for Coffee</h2>
+        <p>Natural fertilizers can enhance coffee plant health:</p>
+        <ul>
+            <li><strong>Compost:</strong> Adds organic matter to the soil, enhancing water retention and fertility.</li>
+            <li><strong>Bone Meal:</strong> Supplies phosphorus, which aids in root development and flowering.</li>
+            <li><strong>Mulch:</strong> Helps maintain soil moisture and reduces weed growth around the plants.</li>
+        </ul>
+    </div>
+
+
+    <div class="section" id="pest-prevention">
+        <h2>Pest and Disease Prevention</h2>
+        <p>Measures to protect coffee crops from pests and diseases:</p>
+        <ul>
+            <li><strong>Pruning:</strong> Keeps plants healthy and reduces pest habitats.</li>
+            <li><strong>Use of Resistant Varieties:</strong> Planting disease-resistant coffee varieties minimizes crop loss.</li>
+            <li><strong>Integrated Pest Management (IPM):</strong> Combines biological and cultural practices to control pests.</li>
+        </ul>
+    </div>
+
+    
+    <div class="section" id="benefits">
+        <h2>Benefits of Coffee</h2>
+        <ul>
+            <li><strong>Rich in Antioxidants:</strong> Coffee contains antioxidants that can help reduce inflammation.</li>
+            <li><strong>Mental Alertness:</strong> Caffeine in coffee stimulates the central nervous system, promoting alertness.</li>
+            <li><strong>Social and Cultural Value:</strong> Coffee brings people together and is integral to many cultures.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <h3>1. How long does it take for a coffee plant to produce beans?</h3>
+        <p>Coffee plants usually take around 3-4 years to produce their first crop, and they can continue producing for up to 20 years.</p>
+
+        <h3>2. What are common pests that affect coffee crops?</h3>
+        <p>Common pests include coffee borer beetles and leaf rust. These can be managed with integrated pest management practices.</p>
+    </div>
+
+    <a href="crop.html">Back to Crop List</a>
+</div>   <div class="box-list">
+    <div class="box">
+      <h3><a href="rice.html">Rice</a> </h3>
+      
+    </div>
+    <div class="box">
+      <h3><a href="groundnut.html">Groundnut</a></h3>
+    </div>
+  </div></div>
+
+<script>
+const breadcrumbContainer = document.getElementById("breadcrumb");
+
+const pathSegments = [
+    { name: "Home", url: "home.html" },
+    { name: "Crops", url: "crop.html" }, 
+    { name: "Coffee", url: "coffee.html" }
+];
+
+
+let breadcrumbHTML = "";
+pathSegments.forEach((segment, index) => {
+    if (index === pathSegments.length - 1) {
+        breadcrumbHTML += `<span>${segment.name}</span>`;
+    } else {
+        breadcrumbHTML += `<a href="${segment.url}">${segment.name}</a> >> `;
+    }
+});
+
+
+breadcrumbContainer.innerHTML = breadcrumbHTML;
+</script>
+
+</body>
+</html>

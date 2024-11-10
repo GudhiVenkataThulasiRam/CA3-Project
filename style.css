@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(./wallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+header h1{
+    margin-left: 18px;
+}
+nav{
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    font-size:22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(168, 255, 7);
+}
+.tile{
+    width: 100vw;
+    background-color: #3dc346;
+    height: 15vh;
+    display: flex;
+    margin-top: -4vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 100vh;
+    width:100vw;
+    background-color: #ffffff00;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.box div{
+    margin-top: 18px;
+    height: 80vh;
+    width: 60vw;
+    background-color: #d6ffd8;
+    justify-content:left;
+    padding: 12px;
+    text-align: left;
+    align-items: center;
+    font-size: 17px;
+}
+.box div h1{
+    color: #3dc346;
+}
+.container, main {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    padding: 8px;
+    margin: 5px;
+    width: 80%;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#cropList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+#cropList {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Crop item card styling */
+.crop-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.crop-item img {
+    border-radius: 2px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.crop-item h2 {
+    color: #4CAF50;
+    margin: 10px 0;
+}
+/* Button styling */
+.check-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.check-btn:hover {
+    background-color: #388E3C;
+}
+
+.crop-item:hover {
+    transform: scale(1.05);
+    border-color: #4CAF50;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    background-color: black;
+    color: azure;
+    width: 100%;
+    height:100px;
+    margin-bottom: -30px;
+    padding-top: 20px;
+}
